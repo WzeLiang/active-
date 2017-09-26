@@ -56,6 +56,7 @@ body .content .activity .activity-box .activity-item img {
 }
 body .foot {
   width: 100%;
+  font-size:0;
 }
 body .foot img {
   width: 100%;
