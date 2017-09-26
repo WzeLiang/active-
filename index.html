@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="./js/config.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Title</title>
+</head>
+<body>
+    <div class="head">
+        <img src="./img/head.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <div class="content-back">
+            <img src="img/contain.jpg" alt="">
+        </div>
+        <div class="typebox">
+            <div class="typeitem">
+                <img src="./img/type1.jpg" alt="">
+            </div>
+            <div class="typeitem">
+                <img src="./img/type2.jpg" alt="">
+            </div>
+            <div class="typeitem">
+                <img src="./img/type3.jpg" alt="">
+            </div>
+            <div class="typeitem">
+                <img src="./img/type4.jpg" alt="">
+            </div>
+            <div class="typeitem">
+                <img src="./img/type5.jpg" alt="">
+            </div>
+            <div class="typeitem">
+                <img src="./img/type6.jpg" alt="">
+            </div>
+            <div class="typeitem">
+                <img src="./img/type7.jpg" alt="">
+            </div>
+            <div class="typeitem">
+                <img src="./img/type8.jpg" alt="">
+            </div>
+        </div>
+        <div class="activity">
+
+            <div class="activity-box">
+                <div class="activity-item">
+                    <img src="./img/goods1.jpg"  onclick="test(434)" alt="">
+                </div>
+                <div class="activity-item">
+                    <img src="./img/goods2.jpg"  onclick="test(518)" alt="">
+                </div>
+                <div class="activity-item">
+                    <img src="./img/goods3.jpg"  onclick="test(451)" alt="">
+                </div>
+                <div class="activity-item">
+                    <img src="./img/goods4.jpg"  onclick="test(129)" alt="">
+                </div>
+                <div class="activity-item">
+                    <img src="./img/goods5.jpg"  onclick="test(435)" alt="">
+                </div>
+                <div class="activity-item">
+                    <img src="./img/goods6.jpg"  onclick="test(464)" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <img src="./img/foot.jpg" alt="">
+    </div>
+    <script>
+        function test(goodsid)
+        {
+            try{
+                pl.toDetail(goodsid);
+                console.log(goodsid)
+            }catch(e){
+            }
+            passValue(goodsid);
+
+        }
+    </script>
+</body>
+</html>
